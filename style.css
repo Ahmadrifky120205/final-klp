@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/736x/87/00/6c/87006cfc9a8db3d9bf4d2c9b9bc314c9.jpg);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 50%;
+    max-width: 500px;
+}
+h1 {
+    text-align: center;
+    color: white; /* Warna merah Gacoan */
+    background-color: orangered;
+}
+.menu-item-img{
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.item-details h4 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.item-details p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+}
+.item-controls {
+    display: flex;
+    justify-content: center;
+}
+.quantity-btn {
+    background-color: #ffd700; /* Warna kuning Gacoan */
+    border: none;
+    color: #333;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.quantity {
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    -moz-box-align: center;
+}
+.customer-info {
+    margin-top: 20px;
+}
+.customer-info input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.order-summary {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+.order-button {
+    width: 100%;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.order-button:hover {
+    background-color: #b01c22;
+}
+#confirmation-message {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 5px;
+}
+.hidden {
+    display: none;
+}
