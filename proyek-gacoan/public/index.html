@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Mie Gacoan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menu Gacoan KW</h1>
+        <form id="order-form">
+            <div class="menu-list">
+                </div>
+
+            <div class="order-summary">
+                <h3>Total Pesanan: <span id="total-price">Rp 0</span></h3>
+            </div>
+
+            <div class="customer-info">
+                <label for="customer-name">Nama Pemesan:</label>
+                <input type="text" id="customer-name" name="customer-name" required placeholder="Tulis nama Anda di sini...">
+            </div>
+
+            <button type="submit" class="order-button">Pesan Sekarang</button>
+        </form>
+        <div id="confirmation-message" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
